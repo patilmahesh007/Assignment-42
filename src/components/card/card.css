@@ -1,0 +1,66 @@
+.card {
+  border: 1px solid black;
+  padding: 10px 10px 40px 10px;
+  width: 18rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: relative;
+}
+
+.img {
+  height: 10rem;
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.price-btn{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  position: absolute;
+  bottom: 10px;
+  
+  }
+.price{
+  font-size: 15px;
+}
+.quantity-block{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quantity-block button{
+  height: 30px;
+  width: 100px;
+  border: none;
+  background-color: aquamarine;
+  border-radius: 10px;
+  align-items: center;
+}
+.quantity-block p{
+ position: relative;
+ top: -10px;
+}
+.not-available{color: red;}
+
+.btn {
+  
+  width: fit-content;
+ 
+  padding: 5px 13px;
+  background-color: rgb(31, 95, 31);
+  color: #fff;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(25, 75, 25);
+}

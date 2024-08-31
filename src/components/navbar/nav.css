@@ -1,0 +1,33 @@
+header {
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+    background-color: rgba(128, 128, 128, 0.563);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+   
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    
+
+}
+.logo{
+    height: 50px;
+    position: fixed;
+    left: 2%;
+}
+.container {
+    margin-right: 60px;
+    display: flex;
+    gap: 20px;
+
+}
+
+span {
+    font-size: large;
+    padding-right: 20px;
+}
