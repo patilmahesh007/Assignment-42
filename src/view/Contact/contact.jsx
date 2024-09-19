@@ -1,10 +1,11 @@
 import Footer from "../../components/footer/footer"
 import Navbar from "../../components/navbar/nav"
+import logo from "./logo.png"
 function Contact() {
   return (
     <>
     <Navbar/>
-    Hello world!
+    <img src={logo} />
     <Footer/>
   </>
   )

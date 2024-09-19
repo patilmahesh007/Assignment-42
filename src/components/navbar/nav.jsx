@@ -11,18 +11,16 @@ function Navbar() {
     <header>
       <img src={logo.logo}  className='logo' /> 
       <div className="container">
-        <NavLink to="/" style={linkStyle}>
+        <NavLink className="navlink" to="/" style={linkStyle}>
           Home
         </NavLink>
-        <NavLink to="/about" style={linkStyle}>
+        <NavLink className="navlink" to="/about" style={linkStyle}>
           About Us
         </NavLink>
-        <NavLink to="/contact" style={linkStyle}>
+        <NavLink className="navlink" to="/contact" style={linkStyle}>
           Contact Us
         </NavLink>
-        <NavLink to="/notes" style={linkStyle}> 
-          Notes
-        </NavLink>
+       
       </div>
     </header>
   );
